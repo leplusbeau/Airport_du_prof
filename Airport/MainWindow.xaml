@@ -1,0 +1,78 @@
+﻿<Window x:Class="Airport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mv="clr-namespace:Airport.ViewModels"
+        xmlns:entities="clr-namespace:Airport.Entities;assembly=Airport.Entities"
+        xmlns:gui="clr-namespace:Airport"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static ApplicationCommands.Close}"  CanExecute="CommandBinding_CanExecute" Executed="CommandBinding_Executed"/>
+        <CommandBinding Command="{x:Static gui:MainWindow.RechercherCommand}"  CanExecute="CommandBinding_CanExecute" Executed="RechercherVolCommand"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Key="Q" Modifiers="Control" Command="ApplicationCommands.Close" />
+        <KeyBinding Key="F" Modifiers="Control" Command="{x:Static gui:MainWindow.RechercherCommand}" />
+    </Window.InputBindings>
+    <Window.Resources>
+        <mv:VMVol x:Key="myModelVol"/>
+        <DataTemplate DataType="{x:Type entities:Vol}">
+            <Grid x:Name="volContainer">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="{Binding Compagnie}" Grid.Column="0" Grid.RowSpan="2"/>
+                <TextBlock Text="{Binding Ligne}" Grid.Column="1" Grid.Row="0"/>
+                <TextBlock Text="{Binding Statut}" Grid.Column="1" Grid.Row="1"/>
+            </Grid>
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding Compagnie}" Value="LH ">
+                    <Setter TargetName="volContainer" Property="Background" Value="Red"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+        </DataTemplate>
+    </Window.Resources>
+    <Window.DataContext>
+        <Binding Source="{StaticResource myModelVol}"/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label>Critères de recherche:</Label>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0">Compagnie:</Label>
+                <Label Grid.Column="1">Vol:</Label>
+                <!--<Label Grid.Column="2">Date:</Label>-->
+                <TextBox Grid.Row="1" Grid.Column="0" Name="CieSearch" Text="{Binding Path=Cie, Mode=TwoWay}"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Name="LigSearch" Text="{Binding Path=SearchLig, Mode=TwoWay}"/>
+                <!--<TextBox Grid.Row="1" Grid.Column="2" Name="DateSearch" Text="{Binding Path=SearchDate, Mode=TwoWay}" />-->
+                <Button Grid.Row="2" Grid.ColumnSpan="2" Command="{x:Static gui:MainWindow.RechercherCommand}" Margin="0,0,94,0">Lancer la recherche</Button>
+                <Button Content="Button" Grid.Column="2" Grid.Row="2"  Command="ApplicationCommands.Close"/>
+            </Grid>
+            <Label>Liste des vols trouvés :</Label>
+            <ListBox ItemsSource="{Binding Path=ResSearch}" Height="136" SelectedValue="{Binding Path=CurrentVol, Mode=TwoWay}" />
+
+            <Label>Détail vol :</Label>
+            <TextBlock Name="SelectedResultLabel" Text="{Binding Path=CurrentVol}" />
+
+        </StackPanel>
+
+    </Grid>
+</Window>

@@ -1,0 +1,107 @@
+﻿<Window x:Class="Airport.Views.FicheBagage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FicheBagage" Height="554" Width="547">
+    <StackPanel Margin="0,0,0,2">
+        <Expander Header="Baggage Information">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Code IATA"/>
+                <Label Grid.Row="0" Grid.Column="2" Content="Compagnie"/>
+                <Label Grid.Row="0" Grid.Column="4" Content="Vol"/>
+                <Label Grid.Row="1" Content="Embarquable"/>
+                <Label Grid.Row="1" Grid.Column="2" Content="Particularités"/>
+                <Label Grid.Row="2" Content="Date de création"/>
+                <Label Grid.Row="2" Grid.Column="2" Content="Origine de création"/>
+            </Grid>
+
+        </Expander>
+        <Expander Header="Passager Information">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Code IATA"/>
+                <Label Grid.Row="0" Grid.Column="2" Content="Compagnie"/>
+                <Label Grid.Row="0" Grid.Column="4" Content="Vol"/>
+                <Label Grid.Row="1" Content="Embarquable"/>
+                <Label Grid.Row="1" Grid.Column="2" Content="Particularités"/>
+                <Label Grid.Row="2" Content="Date de création"/>
+                <Label Grid.Row="2" Grid.Column="2" Content="Origine de création"/>
+            </Grid>
+
+        </Expander>
+        <Expander Header="Flight Information">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Code IATA"/>
+                <Label Grid.Row="0" Grid.Column="2" Content="Compagnie"/>
+                <Label Grid.Row="0" Grid.Column="4" Content="Vol"/>
+                <Label Grid.Row="1" Content="Embarquable"/>
+                <Label Grid.Row="1" Grid.Column="2" Content="Particularités"/>
+                <Label Grid.Row="2" Content="Date de création"/>
+                <Label Grid.Row="2" Grid.Column="2" Content="Origine de création"/>
+            </Grid>
+
+        </Expander>
+        <Expander Header="Security Information">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="Code IATA"/>
+                <Label Grid.Row="0" Grid.Column="2" Content="Compagnie"/>
+                <Label Grid.Row="0" Grid.Column="4" Content="Vol"/>
+                <Label Grid.Row="1" Content="Embarquable"/>
+                <Label Grid.Row="1" Grid.Column="2" Content="Particularités"/>
+                <Label Grid.Row="2" Content="Date de création"/>
+                <Label Grid.Row="2" Grid.Column="2" Content="Origine de création"/>
+            </Grid>
+
+        </Expander>
+    </StackPanel>
+</Window>

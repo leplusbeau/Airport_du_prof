@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="308529c4ee1f4962a85662fd8338e535" Name="Diagramme1" ZoomLevel="92">
+        <EntityTypeShape EntityType="CDG1ArchivageModel.AER" Width="1.625" PointX="14.625" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.BSM" Width="1.5" PointX="18.75" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.BSM_VOL_APPORT" Width="1.5" PointX="21.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.BSM_VOL_CNT" Width="1.5" PointX="21.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.CIE" Width="1.5" PointX="12.875" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.CLASSE_CIE" Width="1.5" PointX="12.5" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.CODE_ALARME" Width="1.5" PointX="7.125" PointY="30.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.CRE_IND" Width="1.5" PointX="2.625" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.EDS" Width="1.5" PointX="1.125" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.EMPORT_ENRGT_SUR" Width="1.5" PointX="13.375" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.EMPORT_VOLS" Width="1.5" PointX="13.625" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.GRP_BNQ" Width="1.5" PointX="10.625" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.GRP_TRI" Width="1.5" PointX="4" PointY="66.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.ITI" Width="1.5" PointX="16.5" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.ITI_EMPORT_VOLS" Width="1.5" PointX="14.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.LIG_ENT_TRI" Width="1.5" PointX="8.125" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.MOD_CHR" Width="1.5" PointX="11.5" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.OCCURENCE_BAGAGE" Width="1.5" PointX="21" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.PARK_AVION" Width="1.5" PointX="9.375" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.PART_BSM" Width="1.5" PointX="17.375" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.PIM" Width="1.5" PointX="15.125" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.PORTIQUE" Width="1.5" PointX="9.875" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.BANQUE" Width="1.5" PointX="11.625" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.PST_OPERATEUR" Width="1.5" PointX="13.375" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.SORTIE_TRI" Width="1.5" PointX="6.375" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TAC_ENTREE_TRI" Width="1.5" PointX="7.875" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TAC_GLOB" Width="1.5" PointX="4.375" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TAC_GRP_BAGS" Width="1.5" PointX="9.625" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TAC_SEC_ROUT" Width="1.5" PointX="6.125" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TOMO" Width="1.5" PointX="4.625" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TRACE_BAGAGE" Width="1.5" PointX="23.25" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TRONCON" Width="1.5" PointX="2.875" PointY="60.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.TYP_AVION" Width="1.5" PointX="11.125" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.VOL" Width="1.5" PointX="16.5" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.VOL_ARRIVE" Width="1.5" PointX="17.125" PointY="30" IsExpanded="true" />
+        <EntityTypeShape EntityType="CDG1ArchivageModel.VOL_DEPART" Width="1.5" PointX="15.5" PointY="30" IsExpanded="true" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_BSM_VOL" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_BSM_VOL_APPORT" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_BSM_VOL_CNT" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_OCCURENCE_BAGAGE_BSM" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CLASSE_CIE_CIE" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_VOLS_CEC" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_VOLS_CIE" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_EDS" ManuallyRouted="true" >
+          <ConnectorPoint PointX="2.2147997723806334" PointY="60.375" />
+          <ConnectorPoint PointX="2.2147997723806334" PointY="58.896410958984376" />
+          <ConnectorPoint PointX="2.6869253327114246" PointY="58.896410958984376" />
+          <ConnectorPoint PointX="2.6869253327114246" PointY="46.422506510416667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_LIG_ENT_TRI" ManuallyRouted="true" >
+          <ConnectorPoint PointX="8.3060712904795082" PointY="60.375" />
+          <ConnectorPoint PointX="8.3060712904795082" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="7.4088846784816216" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="7.2422180118149555" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="6.7239570833333326" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="6.5572904166666666" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="4.02235861365097" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="3.8556919469843032" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="3.4972884698321836" PointY="59.540874795271904" />
+          <ConnectorPoint PointX="3.4972884698321836" PointY="50.751568044418896" />
+          <ConnectorPoint PointX="3.4822638125867127" PointY="50.751568044418896" />
+          <ConnectorPoint PointX="3.4822638125867127" PointY="46.422506510416667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_PST_OPERATEUR" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_SORTIE_TRI" ManuallyRouted="true" >
+          <ConnectorPoint PointX="6.5286444477386274" PointY="60.375" />
+          <ConnectorPoint PointX="6.5286444477386274" PointY="59.734683064698714" />
+          <ConnectorPoint PointX="4.02235861365097" PointY="59.734683064698714" />
+          <ConnectorPoint PointX="3.8556919469843032" PointY="59.734683064698714" />
+          <ConnectorPoint PointX="3.2452854091274923" PointY="59.734683064698714" />
+          <ConnectorPoint PointX="3.2452854091274923" PointY="46.422506510416667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_TOMO" ManuallyRouted="true" >
+          <ConnectorPoint PointX="4.8333053714559595" PointY="60.375" />
+          <ConnectorPoint PointX="4.8333053714559595" PointY="59.958350287186676" />
+          <ConnectorPoint PointX="3.0547780602423167" PointY="59.958350287186676" />
+          <ConnectorPoint PointX="3.0547780602423167" PointY="46.422506510416667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_CRE_IND_TRONCON" ManuallyRouted="true" >
+          <ConnectorPoint PointX="3.0861565497470389" PointY="60.375" />
+          <ConnectorPoint PointX="3.0861565497470389" PointY="60.113359522912283" />
+          <ConnectorPoint PointX="2.811753248435946" PointY="60.113359522912283" />
+          <ConnectorPoint PointX="2.811753248435946" PointY="46.422506510416667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_3" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_ENRGT_SUR_EMPORT_VOLS" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_ENRGT_SUR_PST_BNQ_ENRGT" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_VOLS_LIG_ENT_TRI" ManuallyRouted="true" >
+          <ConnectorPoint PointX="9.218752" PointY="60.375" />
+          <ConnectorPoint PointX="9.218752" PointY="59.75" />
+          <ConnectorPoint PointX="10.291666666666666" PointY="59.75" />
+          <ConnectorPoint PointX="10.458333333333334" PointY="59.75" />
+          <ConnectorPoint PointX="12.430290905245066" PointY="59.75" />
+          <ConnectorPoint PointX="12.596957571911734" PointY="59.75" />
+          <ConnectorPoint PointX="15.5" PointY="59.75" />
+          <ConnectorPoint PointX="15.5" PointY="35.24562661228083" />
+          <ConnectorPoint PointX="15.125" PointY="35.24562661228083" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_EMPORT_VOLS_MOD_CHR" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_ITI_EMPORT_VOLS" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TAC_GRP_BAGS_EMPORT_VOLS" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_VOL_DEPART_EMPORT_VOLS" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_GRP_BNQ_LIG_ENT_TRI" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_PORTIQUE_SCANNER_GRP_BNQ" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_PST_BNQ_ENRGT_GRP_BNQ" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_4" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_5" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_6" ManuallyRouted="true" >
+          <ConnectorPoint PointX="5.2641418296039113" PointY="66.75" />
+          <ConnectorPoint PointX="5.2641418296039113" PointY="65.67596636284172" />
+          <ConnectorPoint PointX="6.8300648024988551" PointY="65.67596636284172" />
+          <ConnectorPoint PointX="6.8300648024988551" PointY="65.239807942708325" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_RESSOURCE_GRP_TRI_7" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_ITI" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TAC_ENTREE_TRI_LIG_ENT_TRI" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TRACE_BAGAGE_OCCURENCE_BAGAGE" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_PIM_PST_OPERATEUR" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_PST_BNQ_ENRGT_PST_OPERATEUR" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TAC_GRP_BAGS_SORTIE_TRI" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TACHE_SORTIE_TRI_3" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TACHE_SORTIE_TRI_4" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_TACHE_SORTIE_TRI_5" ManuallyRouted="true" >
+          <ConnectorPoint PointX="7.3255513451482885" PointY="60.375" />
+          <ConnectorPoint PointX="7.3255513451482885" PointY="57.937503339613087" />
+          <ConnectorPoint PointX="6.7239570833333326" PointY="57.937503339613087" />
+          <ConnectorPoint PointX="6.5572904166666666" PointY="57.937503339613087" />
+          <ConnectorPoint PointX="5.009076451097461" PointY="57.937503339613087" />
+          <ConnectorPoint PointX="5.009076451097461" PointY="45.845602213541667" />
+        </AssociationConnector>
+        <AssociationConnector Association="CDG1ArchivageModel.FK_VOL_ARRIVE_VOL" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.FK_VOL_DEPART_VOL" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.A_POUR_PART" ManuallyRouted="false" />
+        <AssociationConnector Association="CDG1ArchivageModel.POSTE_DEPOSE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
